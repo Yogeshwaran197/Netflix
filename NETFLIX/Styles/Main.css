@@ -387,6 +387,80 @@ footer{
   background: rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 1024px) {
+  .bannerContainer h1 {
+    font-size: 2.3rem;
+    width: 85%;
+  }
+  .bannerContainer h4,
+  .bannerContainer p {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+  .caruselCardContainer,
+  .planContainer,
+  .reasonsContainer,
+  .faqCardsContainer {
+    flex-wrap: wrap;
+  }
+  .caruselCard,
+  .planCard,
+  .reasonCard {
+    width: 40%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerSection {
+    height: auto;
+    min-height: 400px;
+  }
+  .bannerContainer {
+    height: auto;
+    margin-top: 20px;
+  }
+  .bannerContainer h1 {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+  .bannerContainer h4,
+  .bannerContainer p {
+    width: 98%;
+    font-size: 1rem;
+  }
+  .inputContainer,
+  .inputContainer-2 {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+  .getStaredButton,
+  .emailInputBox {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  .caruselCard,
+  .planCard,
+  .reasonCard {
+    width: 90%;
+    margin: 0.5rem auto;
+    height: auto;
+  }
+  .footer {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .column {
+    width: 100%;
+  }
+}
+
 .netflix-india{
  margin-top: 30px;
  font-size: 16px;
