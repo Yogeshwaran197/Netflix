@@ -146,4 +146,47 @@
 
 }
 
+@media (max-width: 1024px) {
+  .upperNavbarSection {
+    flex-direction: column;
+    height: auto;
+  }
+  .upperNavBarLeftSection,
+  .upperNavbarRightSection {
+    width: 100%;
+  }
+  .menuList {
+    width: 70%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    height: auto;
+    flex-direction: column;
+  }
+  .upperNavbarSection {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+  .menuList {
+    width: 95%;
+    font-size: 11px;
+    height: 40px;
+    border-radius: 30px;
+  }
+  .singin-Button,
+  .lang-button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+  .netflix-Logo {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 
