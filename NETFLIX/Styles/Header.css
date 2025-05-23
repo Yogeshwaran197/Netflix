@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*a{
+  color: white;
+  text-decoration: none;
+}
+
+.mainNetflixContainer{
+  /* border: 2px solid red; */
+
+
+}
+
+
+.navContainer{
+  /* border: 2px solid green; */
+  height: 20vh;
+  
+  
+ 
+}
+
+.upperNavbarSection{
+  /* border: 2px solid blue; */
+  display: flex;
+  height: 50%;
+}
+
+.lowerNavbarSection{
+  /* border:2px solid black; */
+  height: 50%;
+}
+
+.upperNavbarRightSection{
+  /* border: 2px solid red; */
+  width: 50%;
+  
+}
+
+.upperNavBarLeftSection{
+  /* border:2px solid green; */
+  width: 50%;
+  
+}
+
+.netflix-Logo{
+ width: 33%;
+ margin-left: -15px ;
+}
+
+.navbarButtonContainer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.langugeButtoncontainer{
+  margin-left: 8px;
+}
+
+.singinButtonContainer{
+ padding-right: 18px;
+}
+
+.lang-button{
+  display: flex;
+  padding: 8px 18px 8px 18px;
+  border-radius: 50px ;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.lang-button p{
+  margin-left: 8px;
+}
+
+.singin-Button{
+  padding: 9px 18px 9px 18px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  font-weight: bold;
+  border: none;
+}
+
+.singin-Button a{
+  text-decoration: none;
+  color: black;
+}
+
+.lowerNavbarSection{
+ /* border: 2px solid red; */
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.menuList{
+  width: 40%;
+  list-style: none;
+  background-color: rgb(16, 14, 14);
+  opacity: 0.9;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 75px;
+  height: 50px;
+  position: fixed;
+  z-index: 100;
+  color: white;
+}
+
+.menuList a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.menuList li{
+  /* border: 2px solid red; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.singin-Button:hover{
+ opacity: 0.6;
+}
+
+.menuList a:hover{
+  color:rgb(225, 71, 71);
+
+}
+
+
